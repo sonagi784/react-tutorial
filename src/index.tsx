@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from '@views/app/App'
-import ErrorBoundary from '@common/errorBoundary/ErrorBoundary'
+import ErrorBoundary from '@components/common/errorBoundary/ErrorBoundary'
+import App from '@/views/App'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
 
