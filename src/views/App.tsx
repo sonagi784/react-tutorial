@@ -1,6 +1,6 @@
 import Header from '@components/common/header/Header'
 import Footer from '@components/common/footer/Footer'
-import Router from '@/router'
+import Router from '@router/Router'
 
 // default layout
 function App() {
