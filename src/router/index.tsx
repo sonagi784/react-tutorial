@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Home from '@views/home/Home'
-import About from '@views/about/About'
+import Home from '@views/home'
+import About from '@views/about'
 import { Counter } from '@views/counter'
 
 function Router() {
