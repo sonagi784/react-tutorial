@@ -5,13 +5,17 @@ import ErrorBoundary from '@components/common/errorBoundary/ErrorBoundary'
 import App from '@/views/App'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
+import { Provider } from 'react-redux'
+import { store } from './store'
 
 ReactDOM.render(
   <React.StrictMode>
     <ErrorBoundary>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <Provider store={store}>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </Provider>
     </ErrorBoundary>
   </React.StrictMode>,
   document.getElementById('root')

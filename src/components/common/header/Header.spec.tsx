@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
 import Header from './Header'
-import Router from '@router/Router'
+import Router from '@/router'
 
 describe('components/common/header/Header', () => {
   it('render a header component', () => {
