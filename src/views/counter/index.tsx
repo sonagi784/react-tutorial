@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { RootState } from '@/store'
 import { useSelector, useDispatch } from 'react-redux'
-import { increment, decrement, incrementBy, decrementBy, resetValue } from '@store/counter'
+import { increment, decrement, incrementBy, decrementBy, resetValue } from '@/store/counter'
 
 export function Counter() {
   const [plusN, setPlusN] = useState(0)
